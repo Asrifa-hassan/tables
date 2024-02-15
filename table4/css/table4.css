@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Lora&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{   
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+  height: 100%;
+  background-color: #c8c8c8;
+}   
+h1{
+  text-align: center;
+  padding: 10px 10px;
+  font-family: 'Lora', serif;  
+  color: rgb(0 0 0);
+  }
+table {
+  border-collapse: collapse;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fefdfd;
+}
+th{
+  color: #918c8c;
+  padding: 25px 0px 29px 0px;
+  font-weight: 300;
+}
+td{
+  padding: 19px;
+  align-items: center;
+}  
+td,th {
+  font-family: 'Lora', serif;
+  border-bottom: 3px solid #ddd;
+}
+.close{
+  color: #da5757;
+  cursor: pointer;
+  font-size: 14px;
+  opacity:1.5;
+}
+.wait{
+  color: rgb(166, 110, 5);
+  background-color:rgb(61 54 42);
+}   
+.waiting{
+  background-color:  rgb(181, 121, 10);
+  width: 40px;
+}
+.row{
+  margin: 0px 0px 0px 5px;
+  width: 43%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 45px;
+}
+img{
+  margin: 14px;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+} 
+.col2 p{
+  padding: 22px 0px 0px 7px;
+  text-align: center;
+  font-size:small;
+}
+input[type="checkbox"]{
+  color: #084126;
+}
+.heading2{
+  width: 1%;
+  white-space: nowrap;
+}  
+span{
+  color: #454343;
+}
+.button{
+  height: 34px;
+  width: 111px;
+  background-color: rgb(144, 231, 142);
+  border-radius: 20px;
+  border-style: none;
+  color: green;
+}
+.circle{
+  position: absolute;
+  margin: 2px 0px 0px 12px;
+  width: 10px;
+  height: 10px;
+  background-color: #279962;
+  border-radius: 50%;
+}  
+ 
+   
+
